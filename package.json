@@ -1,0 +1,38 @@
+{
+  "name": "nutra-minimal-reporter",
+  "version": "0.0.0",
+  "description": "The \"nutra-minimal-reporter\" module is a (nearly) silent testing framework reporter for the \"N.U.T.R.A.\" unit test runner.",
+  "main": "dist/nutra-minimal-reporter.js",
+  "scripts": {
+    "test": "test",
+    "build": "babel src --out-dir dist",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m-a-r-c-e-l-i-n-o/nutra-minimal-reporter.git"
+  },
+  "keywords": [
+    "N.U.T.R.A.",
+    "reporter",
+    "minimal",
+    "jasmine",
+    "node",
+    "unit",
+    "test",
+    "testing"
+  ],
+  "author": "m-a-r-c-e-l-i-n-o <me@marceli.no>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/m-a-r-c-e-l-i-n-o/nutra-minimal-reporter/issues"
+  },
+  "homepage": "https://github.com/m-a-r-c-e-l-i-n-o/nutra-minimal-reporter#readme",
+  "devDependencies": {
+    "babel-cli": "^6.9.0",
+    "babel-preset-es2016-node5": "^1.1.2"
+  },
+  "dependencies": {
+    "colors": "^1.1.2"
+  }
+}
