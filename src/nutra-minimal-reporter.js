@@ -10,7 +10,7 @@ const reporter = (events, system, opts) => {
                         console.log(Color.red('Spec: "' + result.description + '", ' + result.status))
                     }
                     for (var i = 0; i < result.failedExpectations.length; i++) {
-                        console.log(Color.red(result.failedExpectations[i].message))
+                        console.log(Color.red(result.failedExpectations[i].stack))
                         system.handleError(new Error(''))
                     }
                 },
@@ -19,7 +19,7 @@ const reporter = (events, system, opts) => {
                         console.log(Color.red('Suite: "' + result.description + '"'))
                     }
                     for (var i = 0; i < result.failedExpectations.length; i++) {
-                        console.log(Color.red(result.failedExpectations[i].message))
+                        console.log(Color.red(result.failedExpectations[i].stack))
                         system.handleError(new Error(''))
                     }
                 },
