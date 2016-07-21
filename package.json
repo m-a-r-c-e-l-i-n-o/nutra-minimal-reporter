@@ -1,6 +1,6 @@
 {
   "name": "nutra-minimal-reporter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The \"nutra-minimal-reporter\" module is a (nearly) silent testing framework reporter for the \"N.U.T.R.A.\" unit test runner.",
   "main": "dist/nutra-minimal-reporter.js",
   "scripts": {
